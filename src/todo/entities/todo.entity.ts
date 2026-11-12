@@ -36,4 +36,7 @@ export class TodoEntity {
     default: StatusEnum.NOT_STARTED,
   })
   status: StatusEnum;
+
+  @Column()
+  userId: string;
 }
